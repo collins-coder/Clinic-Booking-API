@@ -114,8 +114,7 @@ Install dependencies.
 pip install -r requirements.txt
 
 Environment Variables
-Create a .env file.
-Example:
+
 DATABASE_URL=mysql+pymysql://root:YOUR_PASSWORD@localhost:3306/clinic_booking
 
 SECRET_KEY=your_secret_key
