@@ -102,7 +102,7 @@ GET	/patients/{id}/appointments	View patient appointments
 
 Installation
 Clone the repository.
-git clone <repository-url>
+git clone <https://github.com/collins-coder/Clinic-Booking-API.git>
 Navigate to the project.
 cd clinic-booking-api
 Create a virtual environment.
