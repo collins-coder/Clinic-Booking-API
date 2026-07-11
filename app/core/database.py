@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("postgresql://clinic_booking_m1gd_user:fkB92UHenVYChRJupyktdMFyC6CV3aGc@dpg-d98v2n3tqb8s739qrt90-a.oregon-postgres.render.com/clinic_booking_m1gd")
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL is not set in the .env file.")
